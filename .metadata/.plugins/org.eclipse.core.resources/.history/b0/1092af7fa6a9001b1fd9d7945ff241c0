@@ -1,0 +1,17 @@
+package testjava;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+//		int[][] aa = new int[10][10];
+		Scanner sc = new Scanner(System.in);
+		int gugu = sc.nextInt();
+		for (int i = 1; i <= gugu; i++) {
+			for (int j = 1; i <= 9; j++) {
+				gugu = gugu * j;
+			System.out.println(gugu + "*" + i + "=" + gugu);
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+/* 						select *from poketmon;
+ * 
+ * 
+		insert into poketmon (type, name, resume) values ('불꽃', '포니타', '불의말 포켓몬');
+		insert into poketmon (type, name, resume) values ('불꽃', '날쌩마', '불의말 포켓몬');
+		
+		insert into poketmon (type, name, resume) values ('물, 에스퍼', '야돈', '얼간이 포켓몬');
+		insert into poketmon (type, name, resume) values ('물, 에스퍼', '야도란', '기생 포켓몬');
+		
+		insert into poketmon (type, name, resume) values ('전기', '코일', '자석 포켓몬');
+		insert into poketmon (type, name, resume) values ('전기', '레어코일', '자석 포켓몬');
+		
+		insert into poketmon (type, name, resume) values ('노말, 비행', '파오리', '청둥오리 포켓몬');
+		
+		insert into poketmon (type, name, resume) values ('노말, 비행', '두두', '쌍둥이새 포켓몬');
+		insert into poketmon (type, name, resume) values ('노말, 비행', '두트리오', '세쌍둥이  포켓몬');
+		
+		insert into poketmon (type, name, resume) values ('물', '쥬쥬', '강치 포켓몬');
+		insert into poketmon (type, name, resume) values ('물, 얼음', '쥬레곤', '강치 포켓몬');
+		
+		insert into poketmon (type, name, resume) values ('독', '질퍽이', '진흙 포켓몬');
+		insert into poketmon (type, name, resume) values ('독', '질뻐기', '진흙 포켓몬');
+		
+*
+*/		

@@ -1,0 +1,16 @@
+package chapter8;
+
+public class MethodTest2 {
+	// 처리메서드 코드
+	String name = "";
+	int kuk, eng, tot = 0;
+	float avg = 0.0f;
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

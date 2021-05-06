@@ -1,0 +1,25 @@
+package testjava;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		sc.close();
+		int x = (b / 1) % 10;	// 1의 자리
+		int y = (b / 10) % 10;	// 10의 자리
+		int z = (b / 100) % 10;	// 10의 자리
+		
+		System.out.println(a * x);
+		System.out.println(a * y);
+		System.out.println(a * z);
+		System.out.println((a * x) + ((a * y) * 10) + ((a * z) * 100));
+		
+		
+		
+		
+	}
+}

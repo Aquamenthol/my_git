@@ -1,0 +1,3 @@
+float avg = 0.0f;
+	
+	public MethodTest() {	} 

@@ -1,0 +1,38 @@
+package chapter29;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
+public class Ex13_14_15 {
+	static class MyGUI extends JFrame {
+		MyGUI() {
+			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			setTitle("메뉴 & 툴바");
+			this.setLayout(new FlowLayout());
+			
+			JLabel lbl = new JLabel("이 글자가 바뀝니다.");
+			this.add(lbl);
+			
+			{// 메뉴바, 메뉴, 메뉴 아이템 준비 코드 블록 지정
+			JMenuBar menuBar = new JMenuBar();
+			JMenu fileMenu = new JMenu("파일");
+			JMenu editMenu = new JMenu("편집");
+			
+			JMenuItem newItem = new JMenuItem("새 문서");
+			JMenuItem openItem = new JMenuItem("열기");
+			JMenuItem closeItem = new JMenuItem("닫기");
+			}
+			// 툴바정의
+			JToolBar toolBar = new JToolBar();
+			
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new MyGUI();
+		
+	}
+
+}

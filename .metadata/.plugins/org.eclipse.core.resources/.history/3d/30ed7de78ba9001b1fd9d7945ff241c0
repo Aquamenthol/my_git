@@ -1,0 +1,7 @@
+package testjava;
+
+public class Main {
+    public static void main(String[] agrs) {
+System.out.printf("|\\_/|\r\n", "|q p|   /}\r\n", "( 0 )\"\"\"\\\r\n", "|\"^\"`    |\r\n", "||_/=\\\\__|");
+    } 
+}

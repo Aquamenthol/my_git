@@ -1,0 +1,22 @@
+package chapter28;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+
+class SwingWindowFrame2 extends WindowAdapter implements ActionListener{
+	private JFame f;
+	private JButton b;
+
+public class SwingWindowFrameMain2{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		f = new JFrame("windowadapter 테스트");
+		b = new JButton("제목 바꾸기"); 
+		Container c = f.getContentPane();
+	}
+
+}
+}

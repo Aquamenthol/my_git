@@ -1,0 +1,14 @@
+package chapter29;
+
+import chapter29.Ex13_15.MyGUI;
+import chapter29.Ex13_14.MyGUI;
+
+public class Ex13_14_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new MyGUI();
+		new MyGUI();
+	}
+
+}

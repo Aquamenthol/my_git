@@ -1,0 +1,29 @@
+package testjava;
+
+public class BackjunTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int c = 0;
+        while (true) {
+            if (c == 0) {
+                System.out.println("\\    /\\");
+                c++;
+            }
+            if (c == 1) {
+                System.out.println(" )  ( ')");
+                c++;
+            }
+            if (c == 2) {
+                System.out.println("(  /  )");
+                c++;
+            }
+            if (c == 3) {
+                System.out.println(" \\(__)|");
+                c++;
+            }
+            if (c == 4) break;        
+        }
+	}
+
+}

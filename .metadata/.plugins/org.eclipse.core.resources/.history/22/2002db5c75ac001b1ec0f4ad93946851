@@ -1,0 +1,16 @@
+package chapter28;
+
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+
+public class SwingWindowFrame2 extends WindowAdapter implements ActionListener{
+	private JFame f;
+	private JFame b;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

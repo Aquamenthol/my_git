@@ -1,0 +1,37 @@
+package testjava;
+import java.util.*;
+
+public class ClacTest {
+	int x, y, c;
+	
+	public void add(int x,int y){ // 더하기
+        int c = x+y;
+        System.out.println("x+y="+c);
+    }
+    public void sub(int x,int y){ // 빼기
+        int c = x-y;
+        System.out.println("x-y="+c);        
+    }
+    public void mul(int x,int y){  // 곱하기
+        int c = x*y;
+        System.out.println("x*y="+c);
+    }
+    public void div(int x,int y){  // 나누기
+        int c = x/y;
+        System.out.println("x/y="+c);
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("x의 수를 입력해주세요");
+		int x = sc.nextInt();
+		
+		System.out.println("y의 수를 입력해주세요");
+		int y = sc.nextInt();
+		
+		
+	}
+
+}
